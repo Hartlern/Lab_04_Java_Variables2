@@ -30,5 +30,23 @@ public class Main {
         System.out.println("The difference using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
         System.out.println("The Quotient using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
 
+        System.out.println("\nBeginning of step 12.");
+
+        int intKids = 2;
+        boolean boolRain = true;
+        double doubleGas = 5.7;
+        int intFav = 7;
+        double doubleShoe = 12.5;
+        int intBirthMonth = 9;
+        String stringName = "Ryan";
+
+        System.out.println("The number of kids in my family: " + intKids);
+        System.out.println("Is it raining: " + boolRain);
+        System.out.println("The price of a gallon of gas: " + doubleGas);
+        System.out.println("My favorite number: " + intFav);
+        System.out.println("The size of my shoe: " + doubleShoe);
+        System.out.println("My birth month is[1-12]: " + intBirthMonth);
+        System.out.println("My name: " + stringName);
+
     }
 }
